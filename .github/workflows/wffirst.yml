@@ -7,7 +7,7 @@ jobs:
     # Job name is Greeting
     name: Greeting
     # This job runs on Linux
-    runs-on: agrip20
+    runs-on: [agrip20]
     steps:
       - uses: actions/checkout@v2
       - name: Hello world
